@@ -1,0 +1,9 @@
+DO NOT SKIP - New to JPA and Hibernate?
+The next steps in this section assume that you have good knowledge of JPA and Hibernate!
+
+
+
+If you are NEW to JPA and Hibernate:
+
+We recommend completing this section first- Appendix - Introduction to JPA With Spring Boot in 10 Steps
+

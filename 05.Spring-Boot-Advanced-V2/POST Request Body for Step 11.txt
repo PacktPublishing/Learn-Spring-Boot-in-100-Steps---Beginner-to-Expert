@@ -1,0 +1,18 @@
+POST Request Body for Next Step
+URL: http://localhost:8080/surveys/Survey1/questions/
+
+Header: Content-Type:application/json
+
+Request Body
+
+{
+    "id": "SOME_ID",
+    "description": "Your Favorite Cloud Platform",
+    "options": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Oracle Cloud"
+    ],
+    "correctAnswer": "Google Cloud"
+}

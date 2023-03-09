@@ -1,0 +1,24 @@
+Are you new to Spring Framework?
+
+This section expects you to have a GOOD EXPERIENCE with Spring Framework!
+
+👉  DO NOT WORRY
+
+We have you covered.
+
+👉 WHAT DO YOU NEED TO DO?
+
+If you are NEW to Spring Framework:
+
+COMPLETE this section first- SECTION 7: APPENDIX - INTRODUCTION TO SPRING FRAMEWORK
+
+If you are FAMILIAR with Spring Framework:
+
+Go ahead! You are ready to have fun with Spring Boot!
+
+
+I will see you in the next lecture.
+
+Happy Learning,
+
+Ranga
