@@ -1,6 +1,6 @@
 # Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert
 
-Code Repository for Learn Spring Boot in 100 Steps - Beginner to Expert (https://www.packtpub.com/product/learn-spring-boot-in-100-steps-beginner-to-expert-video/9781788996624), Published by Packt
+Code Repository for [Learn Spring Boot in 100 Steps - Beginner to Expert](https://www.packtpub.com/product/learn-spring-boot-in-100-steps-beginner-to-expert-video/9781788996624), Published by Packt
 
 ## Installing Tools
 
