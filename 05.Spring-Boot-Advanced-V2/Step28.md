@@ -15,7 +15,7 @@ Current Directory : /Users/rangakaranam/Ranga/git/00.courses/spring-boot-master-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.0-M3</version>
+		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.in28minutes.springboot</groupId>
@@ -24,7 +24,7 @@ Current Directory : /Users/rangakaranam/Ranga/git/00.courses/spring-boot-master-
 	<name>first-rest-api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -264,9 +264,9 @@ public class SpringSecurityConfiguration {
 		
 		http.httpBasic(withDefaults());
 		
-		http.csrf().disable(); //POST or PUT
+		http.csrf(csrf -> csrf.disable()); //POST or PUT
 		
-		http.headers().frameOptions().disable();
+		http.headers(headers -> headers.frameOptions(frameOptionsConfig-> frameOptionsConfig.disable()));
 		
 		return http.build();
 	}
