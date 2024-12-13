@@ -103,7 +103,10 @@ Checks
 	<scope>provided</scope>
 </dependency>
 
-```
+for intellij users it is working without <scope>provided</scope> for jasper
+https://youtrack.jetbrains.com/issue/IDEA-158125/Spring-boot-run-configuration-does-not-find-resources-in-META-INF
+(The problem is that Jasper is marked as provided in the pom so it's not on the classpath. I believe there's already an IDEA issue open for that problem. It causes Spring Boot to go down a code path where various JSP-related bits and pieces are not enabled. You can avoid it by removing <scope>provided</scope> from your pom as it's only necessary when building a war file that will be deployed to a servlet container.)
+
 ### /src/main/java/com/in28minutes/springboot/myfirstwebapp/hello/SayHelloController.java Modified
 
 ```
